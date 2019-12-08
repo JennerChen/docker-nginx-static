@@ -1,3 +1,8 @@
+# publish
+
+docker build -t js8zq332/nginx:1 .
+
+
 [![](https://images.microbadger.com/badges/image/flashspys/nginx-static.svg)](https://microbadger.com/images/flashspys/nginx-static "Get your own image badge on microbadger.com") ![](https://img.shields.io/docker/pulls/flashspys/nginx-static.svg)
 
 # Super Lightweight Nginx Image
