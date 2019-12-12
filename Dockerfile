@@ -2,9 +2,10 @@ FROM nginx:1.17
 
 LABEL maintainer="zhangqing <zhangqing332@live.com>"
 
-ENV NGINX_VERSION 1.17.6
+ENV NGINX_VERSION 1.17
 
 RUN  mkdir /static
+RUN  mkdir /proxy
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY nginx.vh.default.conf /etc/nginx/conf.d/default.conf
